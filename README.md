@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://www.yworks.com/assets/images/landing-pages/demo-clustering-k-means.4c1937a892.png"  height="40%" width="55%" alt="Clustering Analysis"/>
+<img src="https://www.yworks.com/assets/images/landing-pages/demo-clustering-k-means.4c1937a892.png"  height="40%" width="70%" alt="Clustering Analysis"/>
 </p>
 
 <h1>Clustering Analysis in R</h1>
