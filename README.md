@@ -76,17 +76,20 @@ cluster.results <- kmeans(x = X, centers = 5, iter.max=1000, nstart=100)
 ### 7. Interpret Cluster Results
 
 <p>Cluster Centers</p>
+
 ```r
 t(round(cluster.results$centers, 2))
 ```
 
 <p>Cluster Memberships</p>
+
 ```r
 cluster.numbers <- cluster.results$cluster
 table(cluster.numbers)
 ```
 
 <p>Cluster Percentages</p>
+
 ```r
 percentages <- round(table(cluster.numbers)/sum(table(cluster.numbers)), 4) * 100
 rbind(table(cluster.numbers), percentages)
