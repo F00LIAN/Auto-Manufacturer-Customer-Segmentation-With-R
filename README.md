@@ -118,6 +118,7 @@ fviz_nbclust(nb)
 - The NbClust method validates the chosen number of clusters.
 
 <h2>Future Improvements</h2>
+
 - Explore hierarchical clustering or DBSCAN for alternative segmentations.
 - Apply Principal Component Analysis (PCA) for dimensionality reduction.
 - Use Silhouette Analysis to validate cluster separability.
