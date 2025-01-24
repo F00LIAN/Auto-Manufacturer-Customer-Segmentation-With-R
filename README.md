@@ -14,10 +14,11 @@ This project implements K-Means clustering to analyze a dataset of cars, using R
 - R Programming
 - RStudio
 - Clustering Libraries (`cluster`, `NbClust`, `factoextra`)
+- Visual Studio Code
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10 / macOS / Linux
+- Windows 11
 
 <h2>List of Prerequisites</h2>
 
