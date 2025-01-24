@@ -3,7 +3,7 @@
 </p>
 
 <h1>Clustering Analysis in R</h1>
-This project implements K-Means clustering to analyze a dataset of cars, using R to determine optimal clusters and evaluate segmentation characteristics.<br />
+This project implements K-Means clustering to analyze a dataset of cars, using R to determine optimal clusters and evaluate customer segmentation characteristics.<br />
 
 <h2>Video Demonstration</h2>
 
