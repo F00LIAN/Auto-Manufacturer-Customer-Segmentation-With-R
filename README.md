@@ -50,7 +50,8 @@ summary.stats <- cbind(
 )
 colnames(summary.stats) <- c("Avg", "Min", "Max", "Std Dev")
 round(summary.stats, 2)
-``` 
+```
+
 <p> <img src="https://github.com/user-attachments/assets/7c37d5e6-9d6e-465b-8dda-18bf3558322a" height="60%" width="60%" alt="Summary Stats"/> </p>
 
 ### 4. Standardize the Data (Optional)
@@ -66,7 +67,8 @@ library(factoextra)
 fviz_nbclust(x=X, FUNcluster=kmeans, nstart=100, method="wss", k.max=10) + 
   labs(title="Optimal Number of Clusters: Elbow Plot") + 
   coord_cartesian(ylim=c(0,12000)) + geom_line(size=2)
-``` 
+```
+
 <p> <img src="https://github.com/user-attachments/assets/e7938042-aa56-4c80-a8e9-4c8ccb97912b" height="60%" width="60%" alt="Elbow Plot"/> </p>
 
 - The Optimal Number of Clusters is Five 
@@ -85,11 +87,13 @@ t(round(cluster.results$centers, 2))
 ```
 
 <p>Cluster Memberships</p>
+
 ```r
 # examine cluster centers
 # the cluster centers are used to interpret the results of the segments
 t(round(cluster.results$centers,2))
 ```
+
 <p> <img src="https://github.com/user-attachments/assets/bf077de6-ee06-4b6c-a612-dc5799c0347f" height="60%" width="60%" alt="Clusters"/> </p>
 
 ```r
