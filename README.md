@@ -7,7 +7,7 @@ This project implements K-Means clustering to analyze a dataset of cars, using R
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: K-Means Clustering in R](https://www.youtube.com/watch?v=wNsKf7wSqhQ)
+- ### [YouTube: K-Means Clustering in R (Coming Soon)](https://www.youtube.com/watch?v=wNsKf7wSqhQ)
 
 <h2>Environments and Technologies Used</h2>
 
